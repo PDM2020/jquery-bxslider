@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--John Peacock week 2 final aloha apparel project-->
+<html>
+
+<head>
+
+      <meta charset="utf-8">
+
+      <title>W2 Aloha Apparel Co.</title>
+
+      <meta name="viewport"  content="width=device-width, initial-scale=1" />
+
+      <meta name="description" content="A most excellent website">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <!-- bxSlider CSS file -->
+      <link href="js/bxslider/jquery.bxslider.css" rel="stylesheet" />
+      <!-- load custom CSS file second for specificity  -->
+      <link href="css/week-2-style.css" rel="stylesheet" />
+
+
+
+</head>
+
+<body>
+
+<header class="fixed-width-container flexbox-header">
+
+      <h1 class="hide-title">Aloha Apparel Co.</h1>
+
+      <div class="logo">
+        <img src="images/aloha-logo.svg" title="Aloha Apparel Logo" alt="Aloha Apparel Logo"/>
+      </div>
+
+      <div class="cart">
+       <img src="images/cart-icon.svg" title="Shopping Cart Button" alt="Shopping Cart Button"/>
+      </div>
+
+      <div class="top-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#category">Shop</a></li>
+          <li><a href="#feature">Featured</a></li>
+          <li><a href="#updates">Updates</a></li>
+        </ul>
+      </div>
+
+</header>
+<!--  start of banner girl  -->
+<section class="top-banner">
+
+    	<div class="top-banner-text">
+        <p class="new-collection">New Collection</p>
+    	  <h2 class="season-title">Spring/Summer 2016</h2>
+      </div>
+
+</section>
+
+      <div class="about-section" id="about">
+
+        <div class="about-text">
+          	<h2>Hand-Crafted <span class="strong">Styles</span></h2>
+          	<p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
+        </div>
+
+     </div>
+
+<!--                  store category section                 -->
+
+<div class="category" id="category">
+  <div class="category-section">
+
+    <div class="wide-category mens">
+      <span class="category-name"><a href="#">Men's</a></span>
+    </div>
+
+    <div class="square-category trends">
+    <span class="category-name"><a href="#">Trends</a></span>
+    </div>
+
+    <div class="square-category glasses">
+      <span class="category-name"><a href="#">Glasses</a></span>
+    </div>
+
+    <div class="square-category sale">
+      <span class="category-name"><a href="#">Sale</a></span>
+    </div>
+
+    <div class="square-category bags">
+      <span class="category-name"><a href="#">Bags</a></span>
+    </div>
+
+    <div class="wide-category womens">
+      <span class="category-name"><a href="#">Women's</a></span>
+    </div>
+
+  </div>
+</div>
+
+ <!--        Start of bxSlider                 -->
+
+<div id="feature">
+
+
+ <h2 class="product-title">Most-Loved <span class="strong">Products</span></h2>
+
+
+    <ul class="products bxslider">
+      <li>
+        <img src="images/stretch-knit-dress.jpg" alt="Black Dress with white poka-dots" title="Black Dress with white poka-dots"/>
+    	  <p>Dresses</p>
+    	  <h3>Stretch Knit Dress</h3>
+    	  <p>$169.00</p>
+      </li>
+
+      <li>
+         <img src="images/cotton-blue-shirt.jpg" alt="Faded blue jean shirt with rolled up sleaves" title="Faded blue jean shirt with rolled up sleaves"/>
+         <p>Shirts</p>
+         <h3>Cotton Blue Shirt</h3>
+         <p>$89.00</p>
+      </li>
+
+     <li>
+        <img src="images/checked-stretch-dress.jpg" alt="Red and white checked sleeveless dress" title="Red and white checked sleeveless dress"/>
+        <p>Dresses</p>
+        <h3>Stretch Dress</h3>
+        <p>$129.00</p>
+     </li>
+
+     <li>
+        <img src="images/blue-hipster-backpack.jpg" alt="Blue hipster backpack with red straps" title="Blue hipster backpack with red straps"/>
+        <p>Bags</p>
+        <h3>Hipster Backpack</h3>
+        <p>$69.00</p>
+     </li>
+
+     <li>
+        <img src="images/pink-dotted-dress.jpg" alt="Black Dress with white poka-dots" title="Black Dress with white poka-dots"/>
+        <p>Dresses</p>
+        <h3>Pink Dress</h3>
+        <p>$169.00</p>
+      </li>
+
+      <li>
+         <img src="images/demin-overall-shorts.jpg" alt="Faded blue jean shirt with rolled up sleaves" title="Faded blue jean shirt with rolled up sleaves"/>
+         <p>Denim</p>
+         <h3>Overall Shorts</h3>
+         <p>$89.00</p>
+      </li>
+
+     <li>
+        <img src="images/cotton-yellow-tshirt.jpg" alt="Red and white checked sleeveless dress" title="Red and white checked sleeveless dress"/>
+        <p>Shirts</p>
+        <h3>Yellow T-Shirt</h3>
+        <p>$129.00</p>
+     </li>
+
+     <li>
+        <img src="images/blue-silk-dress.jpg" alt="Blue hipster backpack with red straps" title="Blue hipster backpack with red straps"/>
+        <p>Dresses</p>
+        <h3>Blue Silk Dress</h3>
+        <p>$69.00</p>
+     </li>
+    </ul>
+
+</div>
+
+<div class="bottom-banner" id="updates">
+
+     <div class="cta-section">
+
+        <h2>Sign-up for <span class="strong">Updates</span></h2>
+        <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+
+      <form class="cta-form" id="cta-form">
+        <input type="email" name="email-input" id="email-input" value="" placeholder="your email" />
+        <input id="submit" type="submit" name="submit" value="Sign Up Now" />
+        <div id="try-again">Please enter an email address!</div>
+        <div id="thank-you">Thank you for signing up</div>
+      </form>
+
+
+     </div>
+
+</div>
+
+<footer>
+
+    <div class="fixed-width-container flexbox-footer">
+
+      <div class="contact-group">
+
+       <div class="copyright">
+          <p>&copy; 2016 Aloha Apparel Co.</p>
+          <p>Powered by HTML and CSS.</p>
+       </div>
+
+       <div class="contact">
+          <p>604-733-1968 | <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></p>
+       </div>
+
+       <div class="address"><p>1490 West Broadway</p>
+        <p>Vancouver BC, Canada</p>
+      </div>
+
+    </div><!-- end contact-group div-->
+
+    <div class="social">  <!-- social links div-->
+
+      <ul>
+        <li>
+            <a href="#" title="Facebook">
+            <i class="fa fa-facebook"></i>
+            <span class="social-name">Facebook</span></a>
+        </li>
+        <li>
+            <a href="#" title="Twitter">
+            <i class="fa fa-twitter"></i>
+            <span class="social-name">Twitter</span></a>
+        </li>
+        <li>
+            <a href="#" title="Instagram">
+            <i class="fa fa-instagram"></i>
+            <span class="social-name">Instagram</span></a>
+        </li>
+        <li>
+            <a href="#" title="Pinterest">
+            <i class="fa fa-pinterest"></i>
+            <span class="social-name">Pinterest</span></a>
+        </li>
+        <li>
+            <a href="#" title="Google Plus">
+            <i class="fa fa-google-plus"></i>
+            <span class="social-name">Google+</span></a>
+        </li>
+      </ul>
+
+    </div><!-- social div-->
+
+  </div><!-- fixed width div-->
+
+<!-- jQuery  -->
+<script src="js/jquery-2.2.0.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/bxslider/jquery.bxslider.min.js"></script>
+<!-- my javascript -->
+ <script src="js/my-main.js"></script>
+</footer>
+
+</body>
+
+</html>
